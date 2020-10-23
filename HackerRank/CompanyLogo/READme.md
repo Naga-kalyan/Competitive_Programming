@@ -5,7 +5,7 @@ A newly opened multinational brand has decided to base their company logo on the
 * If the occurrence count is the same, sort the characters in alphabetical order.
 
 For example, according to the conditions described above,
-<br> **GOOGLE**would have it's logo with the letters **G, O, E**.
+<br> **GOOGLE** would have it's logo with the letters **G, O, E**.
 
 #### Input Format
 
