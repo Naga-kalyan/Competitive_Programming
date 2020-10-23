@@ -12,23 +12,21 @@ The race will proceed with A and B hopping alternatively, starting from A. But t
 * The end of the race is reaching the last tile and not crossing it
 * In a case where stride value > (distance of last tile from the start - distance of rabbit from the start) the stride value will equal distance of last tile from the start - distance of rabbit from the start
 * In a situation where the leading rabbit hits the last tile and reaches 0hp simultaneously, he wins
----
+
 ### Input:
 * The first line of the input contains a single integer **T** denoting the number of test cases. The description of **T** test cases follows.
 * The first line of each test case contains five integers **n, s1, s2, hp1, hp2** respectively.
 * The following line will have n space separated integers (0's and 1's) denoting the configuration of tiles from start to end.
----
+
 ### Output:
 For each test case output a single line containing 1 character and a space separated integer, where character is the name of the winning rabbit (A/B) followed by an integer representing the absolute distance between the 2 players
 
----
 ### Constraints
 1 <= T <= 1500
 <br>1 <= n <= 103
 <br>1 <= s1, s2 <= 10
 <br>1 <= hp1, hp2 <= 1250
 
----
 #### Example Input:
 ```
 2
@@ -37,12 +35,13 @@ For each test case output a single line containing 1 character and a space separ
 16 5 10 20 20
 0 1 1 1 0 1 0 1 0 0 1 1 0 1 1 0
 ```
----
+
 #### Example Output:
 ```
 A 0
 B 5
 ```
+
 ### Explanation:
 Explanation will be a timeline represented from tile zero till the race stops (where the array positions are mentioned on the basis of 0 indexing)
 
