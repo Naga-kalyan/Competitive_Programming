@@ -12,7 +12,7 @@ For each test case, calculate the sum of digits of N, and display it in a new li
 * 1 ≤ N ≤ 1000000
 
 ## Example
-###Input
+### Input
 ```
 3 
 12345
